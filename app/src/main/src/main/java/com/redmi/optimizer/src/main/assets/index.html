@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>REDMI OPTIMIZER VIP</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;background:#050b18;color:white;
+ font-family:Arial,sans-serif;padding:18px;
+}
+header{
+ text-align:center;padding:25px 10px;
+ border:1px solid #087cff;border-radius:18px;
+ background:linear-gradient(140deg,#071b3c,#001020);
+ box-shadow:0 0 18px #006aff55;
+}
+h1{color:#28a0ff;font-size:25px}
+h2{color:#48aaff;font-size:18px}
+p{color:#b8cce5}
+.card{
+ background:#0b1930;border:1px solid #14549a;
+ border-radius:15px;padding:16px;margin:15px 0;
+}
+button{
+ width:100%;padding:14px;margin-top:9px;
+ border:1px solid #168cff;border-radius:10px;
+ color:white;background:#0754a8;font-weight:bold;
+}
+button:active{background:#087cff}
+.tag{color:#45b5ff;font-size:12px}
+footer{text-align:center;color:#7894b8;padding:20px}
+</style>
+</head>
+<body>
+<header>
+ <div class="tag">PAINEL VIP • XIAOMI</div>
+ <h1>REDMI OPTIMIZER VIP</h1>
+ <p>Central de otimização manual</p>
+</header>
+
+<div class="card">
+ <h2>🚀 Desempenho</h2>
+ <p>Opções para ajudar a organizar o desempenho do aparelho.</p>
+ <button onclick="info('Feche manualmente os aplicativos que não está usando.')">Otimizar aplicativos</button>
+ <button onclick="info('Reiniciar o aparelho pode ajudar a liberar recursos.')">Dica de reinicialização</button>
+</div>
+
+<div class="card">
+ <h2>🎮 Modo jogos</h2>
+ <p>Configurações para preparar o celular antes de jogar.</p>
+ <button onclick="info('Ative Não Perturbe e feche aplicativos desnecessários.')">Preparar para jogar</button>
+ <button onclick="info('Use a taxa de atualização disponível nas configurações da tela.')">Dica de fluidez</button>
+</div>
+
+<div class="card">
+ <h2>🔋 Bateria</h2>
+ <button onclick="info('Confira o consumo em Configurações > Bateria.')">Verificar consumo</button>
+ <button onclick="info('Reduza o brilho quando for confortável e necessário.')">Dica de economia</button>
+</div>
+
+<div class="card">
+ <h2>📶 Rede e conexão</h2>
+ <button onclick="info('Aproxime-se do roteador e confira a qualidade do Wi-Fi.')">Dica para Wi-Fi</button>
+ <button onclick="info('Reinicie o roteador se a conexão estiver instável.')">Dica de conexão</button>
+</div>
+
+<div class="card">
+ <h2>🛠️ Opções do desenvolvedor</h2>
+ <p>As opções abaixo são apenas orientações.</p>
+ <button onclick="info('Escalas de animação podem ser ajustadas nas Opções do desenvolvedor. Anote os valores originais antes de alterar.')">Ver dica de animações</button>
+</div>
+
+<div class="card">
+ <h2>ℹ️ Sobre</h2>
+ <p>Versão 1.0 • Redmi Optimizer VIP</p>
+ <p>Este painel não altera configurações sozinho. Você controla cada mudança no Android.</p>
+</div>
+
+<footer>REDMI OPTIMIZER VIP • BLUE NEON</footer>
+
+<script>
+function info(msg){alert(msg)}
+</script>
+</body>
+</html>
